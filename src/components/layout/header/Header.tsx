@@ -13,7 +13,7 @@ const Header: React.FC<IHeader> = () => {
       <div className={'col-9'}>
         <ul className={styles.header__menu}>
           <li className={styles.header__menu_item}>
-            <a href='#'>Home</a>
+            <a href='#'>Work</a>
           </li>
           <li className={styles.header__menu_item}>
             <a href='#'>About</a>

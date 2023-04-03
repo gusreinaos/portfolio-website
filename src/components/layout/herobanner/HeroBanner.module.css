@@ -1,0 +1,44 @@
+.herobanner {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+}
+
+.herobanner__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.herobanner__title {
+    align-self: flex-start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5em;
+    line-height: 97.2%;
+    letter-spacing: -0.03em;
+
+    padding: 2em 0 0 0;
+}
+
+.herobanner__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 117%;
+
+    /* or 37px */
+    letter-spacing: -0.03em;
+    color: #606060;
+
+    align-self: flex-end;
+
+    text-align:end;
+
+    margin: -1.5rem;
+
+}
+
+.herobanner__icon {
+    padding: 5em 0 0 0;
+    transform: scale(0.75);
+}
